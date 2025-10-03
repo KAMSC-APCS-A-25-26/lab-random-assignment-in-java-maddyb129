@@ -3,7 +3,7 @@ import java.util.Random;
 public class PhoneNumberGenerator {
     public static void main(String[] args) {
         // TODO: Create Random object for phone number generation
-        
+        Random rand = new Random();
         // TODO: Generate first three digits (XXX)
         // Constraint: Cannot contain 8 or 9 (digits 0-7 only)
         

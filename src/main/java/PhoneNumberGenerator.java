@@ -16,11 +16,21 @@ public class PhoneNumberGenerator {
         int num6 = rand.nextInt(7);
         // TODO: Generate third three digits (XXX)
         // No constraints (000-999)
-        int num7 = rand.nextInt(7);
-        int num8 = rand.nextInt(7);
-        int num9 = rand.nextInt(7);
+        int num7 = rand.nextInt(9);
+        int num8 = rand.nextInt(9);
+        int num9 = rand.nextInt(9);
         // TODO: Format and display phone number as XXX-XXX-XXX
         // Include the dashes in the output
-        System.out.print(num1 + num2 + num3 + "-" + num4 + num5 + num6 + "-" + num7 + num8 + num9);
+        System.out.print(num1);
+        System.out.print(num2);
+        System.out.print(num3);
+        System.out.print("-");
+        System.out.print(num4);
+        System.out.print(num5);
+        System.out.print(num6);
+        System.out.print("-");
+        System.out.print(num7);
+        System.out.print(num8);
+        System.out.print(num9);
     }
 }
